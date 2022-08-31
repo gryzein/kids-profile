@@ -1,5 +1,5 @@
 function imageLoader({ src }) {
-  return `/img/${src}`; // REPLACE WITH YOUR IMAGE DIRECTORY
+  return `/kids-profile/img/${src}`; // REPLACE WITH YOUR IMAGE DIRECTORY
 }
 
 module.exports = imageLoader;
