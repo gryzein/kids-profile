@@ -94,10 +94,17 @@ const Portfolio: FC = () => {
 
       <div className="flex justify-center pt-5 space-x-2">
         <PortoItem
-          title="Hello world"
+          title="Ayo Ngoding"
           description="Praktik bahasa pemrograman"
         />
-        <PortoItem title="Membuat web html" description="Praktik bahasa HTML" />
+        <PortoItem 
+          title="Membuat Web" 
+          description="Praktik bahasa HTML"
+        />
+        <PortoItem 
+          title="Deploy Web" 
+          description="Praktik ngedeploy web"
+        />
       </div>
     </div>
   );
