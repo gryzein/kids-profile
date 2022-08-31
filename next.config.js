@@ -18,7 +18,8 @@ const nextConfig = {
     jwtSecretUser: process.env.JWT_SECRET_USER,
   },
   env: {
-  }
+  },
+  basePath:"/kids-profile"
 };
 
 module.exports = nextConfig;
